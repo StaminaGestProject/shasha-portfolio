@@ -46,7 +46,7 @@
             "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
             "@php artisan migrate --ansi"
         ],
-        "sass" : "sass --watch resources/sass/index.scss:resources/css/index.css --style compressed"
+        "sass" : "sass --watch resources/sass/index.scss:public/index.css --style compressed"
     },
     "extra": {
         "branch-alias": {

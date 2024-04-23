@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>@yield("title")</title>
-        @vite(["ressources/css/index.css"])
+        @vite(['resources/css/index.css','resources/css/bootstrap.css','resources/css/bootstrap_icon.css'])
     </head>
     <body>
         <header>
@@ -12,5 +12,6 @@
         </header>
         @yield("content")
         @include("partials/footer")
+        @vite('resources/js/index.js')
     </body>
 </html>

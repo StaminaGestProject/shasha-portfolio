@@ -1,0 +1,9 @@
+$font : "nirmala";
+@font-face {
+    font-family: $font;
+    src: url("../font/Nirmala.ttf");
+}
+
+*{
+    font-family : $font;
+}

@@ -1,3 +1,9 @@
-body{
-    background-color: black;
+@import "font.scss";
+
+$pink_fair : #DF615D;
+.active{
+    border-bottom : 3px dashed $pink_fair;
+}
+.active a{
+    color : $pink_fair;
 }
